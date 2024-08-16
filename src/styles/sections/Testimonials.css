@@ -1,0 +1,16 @@
+#testimonials {
+	background-color: var(--cl-background-shade);
+}
+
+.t-buttons {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+	.t-buttons {
+		flex-direction: column;
+		gap: 2rem;
+	}
+}

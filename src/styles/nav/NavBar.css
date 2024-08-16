@@ -1,0 +1,43 @@
+#nav {
+	--nav-padding-y: 1.5rem;
+
+	position: absolute;
+	z-index: 1;
+
+	padding: var(--nav-padding-y) var(--site-padding-x);
+	width: calc(100vw - calc(var(--site-padding-x) * 2));
+
+	background: linear-gradient(hsl(0, 0%, 0%, 0.4), hsl(0, 0%, 0%, 0));
+}
+
+#nav.floating-nav {
+	position: fixed;
+
+	color: var(--cl-foreground);
+	background: var(--cl-background);
+
+	animation: fly-down 400ms;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+	gap: 2rem;
+}
+
+@keyframes fly-down {
+	from {
+		transform: translateY(-100%);
+	}
+}
+
+@media (max-width: 900px) {
+	nav {
+		display: none;
+	}
+}

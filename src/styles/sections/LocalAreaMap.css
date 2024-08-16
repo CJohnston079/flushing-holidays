@@ -1,0 +1,122 @@
+#points-of-interest {
+	background-color: var(--cl-contrast-shade);
+	box-shadow: inset var(--box-shadow);
+}
+
+.map-container {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	align-items: center;
+	gap: 2rem;
+}
+
+#points-of-interest .map-container {
+	grid-template-columns: 1fr 2fr;
+	gap: 0rem;
+
+	border: solid 4px var(--cl-background) !important;
+	border-radius: var(--br-normal);
+	overflow: hidden;
+
+	background-color: var(--cl-background);
+	box-shadow: var(--box-shadow);
+}
+
+.map {
+	background-color: var(--cl-emphasis-shade);
+	min-height: 42rem;
+	height: 100%;
+}
+
+.poi-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+
+.poi {
+	border: solid 1px var(--cl-background-shade-2);
+	border-radius: var(--br-normal);
+	padding: 1rem;
+
+	font-weight: 600;
+	color: var(--cl-midground);
+
+	background-color: var(--cl-background-shade);
+	box-shadow: var(--box-shadow);
+
+	transition: 800ms;
+	cursor: pointer;
+}
+
+.poi.active,
+.poi.active:hover {
+	border-color: var(--cl-background-shade-2);
+	color: var(--cl-foreground);
+	background-color: var(--cl-background);
+}
+
+.poi:hover {
+	border-color: var(--cl-emphasis-shade);
+	color: var(--cl-background);
+	background-color: var(--cl-emphasis);
+
+	transition: 400ms;
+}
+
+.img-with-caption {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+
+	border-right: solid 4px var(--cl-background);
+
+	height: 100%;
+
+	overflow: hidden;
+}
+
+.img-with-caption img {
+	object-fit: cover;
+	height: 100%;
+}
+
+.img-with-caption figcaption {
+	padding: 2rem;
+	background-color: var(--cl-background);
+}
+
+.img-with-caption h3 {
+	margin-bottom: 1rem;
+
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	color: var(--cl-foreground-shade);
+}
+
+@media screen and (max-width: 1000px) {
+	#points-of-interest .map-container {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.img-with-caption {
+		display: block;
+	}
+
+	.img-with-caption img {
+		display: none;
+	}
+
+	.map {
+		background-color: var(--cl-emphasis-shade);
+		min-height: 12rem;
+		height: 100%;
+	}
+
+	.poi-container * {
+		width: 100%;
+	}
+}

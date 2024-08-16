@@ -1,0 +1,51 @@
+{
+	"testimonials": [
+		{
+			"labelContent": "Full name",
+			"inputName": "name",
+			"type": "text"
+		},
+		{
+			"labelContent": "Message",
+			"inputName": "message",
+			"type": "textarea"
+		}
+	],
+	"booking": {
+		"dates": [
+			{
+				"labelContent": "Preferred check-in",
+				"inputName": "startDate",
+				"type": "date"
+			},
+			{
+				"labelContent": "Preferred checkout",
+				"inputName": "endDate",
+				"type": "date"
+			}
+		],
+		"guestDetails": [
+			{
+				"labelContent": "Full name",
+				"inputName": "name",
+				"type": "text"
+			},
+			{
+				"labelContent": "Email address",
+				"inputName": "email",
+				"type": "email"
+			},
+			{
+				"labelContent": "Number of guests",
+				"inputName": "numOfGuests",
+				"type": "number"
+			},
+			{
+				"labelContent": "Number of pets",
+				"inputName": "numOfPets",
+				"type": "number"
+			}
+		],
+		"confirmation": []
+	}
+}

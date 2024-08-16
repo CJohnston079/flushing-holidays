@@ -1,0 +1,66 @@
+[
+	{
+		"heading": "Living area",
+		"content": [
+			{
+				"icon": "burner",
+				"description": "Cozy log burner with welcome pack of wood and kindling"
+			},
+			{ "icon": "sofa", "description": "Comfy sofas with  throws" },
+			{
+				"icon": "book",
+				"description": "A wide range of books, games and DVDs for children and adults"
+			},
+			{ "icon": "radio", "description": "Radio with Bluetooth connection" },
+			{
+				"icon": "bluetooth",
+				"description": "Play your own music and podcasts through the radio's Bluetooth speakers"
+			}
+		]
+	},
+	{
+		"heading": "Kitchen and dining",
+		"content": [
+			{ "icon": "cooker", "description": "Range cooker" },
+			{ "icon": "microwave", "description": "Microwave" },
+			{ "icon": "fridge", "description": "Fridge freezer" },
+			{ "icon": "dishwasher", "description": "Dishwasher" },
+			{ "icon": "washing-machine", "description": "Washing machine with tumble dryer" },
+			{ "icon": "coffee-machine", "description": "Nespresso coffee machine" },
+			{ "icon": "table", "description": "Farmhouse dining table" },
+			{ "icon": "high-chair", "description": "Infant's high chair with harness and food tray" },
+			{ "icon": "kitchen", "description": "Breakfast bar" },
+			{ "icon": "tableware", "description": "Welcome pack of essentials" }
+		]
+	},
+	{
+		"heading": "Bedroom and bathroom",
+		"content": [
+			{ "icon": "towel", "description": "Fresh towels and bedding" },
+			{ "icon": "pillow", "description": "Extra bedding for chilling nights" },
+			{ "icon": "rug", "description": "Dog throws" },
+			{ "icon": "hair-dryer", "description": "Hair dryer" },
+			{ "icon": "iron", "description": "Iron and ironing board" }
+		]
+	},
+	{
+		"heading": "Outdoor",
+		"content": [
+			{ "icon": "oak-tree", "description": "Enclosed child- and dog-friendly garden" },
+			{ "icon": "picnic-table", "description": "Large terrace with outdoor dining area" },
+			{ "icon": "chair", "description": "Outdoor sofa and chairs with cushions" },
+			{ "icon": "parking", "description": "Free off-road parking for one vehicle" },
+			{ "icon": "bicycle", "description": "Secure storage for bicycles" },
+			{ "icon": "landscape", "description": "Spectacular forest and mountain views" }
+		]
+	},
+	{
+		"heading": "Safety features",
+		"content": [
+			{ "icon": "smoke-detector", "description": "Smoke alarm" },
+			{ "icon": "fire-alarm", "description": "Carbon monoxide alarm" },
+			{ "icon": "fire-extinguisher", "description": "Fire extinguisher" },
+			{ "icon": "burner", "description": "Fireplace guard" }
+		]
+	}
+]

@@ -1,0 +1,47 @@
+.field {
+	display: grid;
+}
+
+.field-label {
+	font-size: 1rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+
+.field-input {
+	outline: solid 1px transparent;
+	border: solid 1px hsl(0, 0%, 50%);
+	border-radius: var(--br-light);
+	padding: 0.5rem;
+	transition: outline 400ms;
+}
+
+.field-input:focus-visible {
+	outline: solid 1px var(--cl-emphasis);
+}
+
+textarea.field-input {
+	min-width: 48ch;
+	min-height: 6lh;
+}
+
+.char-count {
+	font-family: var(--sans-serif);
+	font-size: 0.9rem;
+	font-weight: 400;
+	text-align: right;
+	letter-spacing: 0.1px;
+	color: var(--cl-midground);
+
+	transition: 400ms;
+}
+
+.field-input:focus-visible + .char-count {
+	font-weight: 600;
+	letter-spacing: -0.2px;
+	color: var(--cl-emphasis);
+}
+
+.field-input:focus-visible + .y {
+	color: hsl(40, 80%, 50%) !important;
+}

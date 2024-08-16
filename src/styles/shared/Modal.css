@@ -1,0 +1,79 @@
+.modal-overlay[open] {
+	position: fixed;
+	inset: 0;
+	z-index: 1;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: calc(100vw - calc(2 * var(--site-padding-x)));
+	height: 100vh;
+
+	padding: 0 var(--site-padding-x);
+	border: none;
+
+	background-color: hsl(0, 0%, 50%, 0.5);
+	backdrop-filter: blur(2px);
+
+	animation: darken-background 1200ms;
+}
+
+.modal-window {
+	display: grid;
+	flex-direction: column;
+	gap: 1rem;
+	justify-items: flex-start;
+
+	margin: 4rem;
+	border: solid 1px var(--cl-background-shade-2);
+	border-radius: var(--br-normal);
+	padding: 2rem;
+
+	background-color: var(--cl-background);
+
+	animation: fade-in-scale-down 400ms;
+}
+
+.modal-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	gap: 4rem;
+}
+
+.modal-header h3 {
+	margin: 0;
+}
+
+.close-modal {
+	border: none;
+	background: none;
+
+	width: 2rem;
+	padding: 0.25rem;
+	aspect-ratio: 1 / 1;
+
+	cursor: pointer;
+	opacity: 0.6;
+	transition: opacity 400ms;
+}
+
+.close-modal:hover {
+	opacity: 1;
+}
+
+@keyframes darken-background {
+	from {
+		background-color: hsl(0, 0%, 0%, 0);
+		backdrop-filter: blur(0px);
+	}
+}
+
+@keyframes fade-in-scale-down {
+	from {
+		opacity: 0;
+		scale: 1.1;
+	}
+}

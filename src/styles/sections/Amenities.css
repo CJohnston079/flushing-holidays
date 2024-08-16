@@ -1,0 +1,61 @@
+#dogs-welcome {
+	background-color: var(--cl-background-shade);
+}
+
+.icard-container {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 2rem;
+	margin-top: 2rem;
+}
+
+.icard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+
+	text-align: center;
+}
+
+.icard hr {
+	width: 100%;
+	border: solid 0.5px var(--cl-background-shade-2);
+}
+
+.icard-icon {
+	max-width: 80%;
+}
+
+.icard-heading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 3lh;
+
+	font-size: 0.8rem;
+	font-weight: 600;
+	letter-spacing: 0.02rem;
+	color: var(--cl-foreground);
+}
+
+@media screen and (max-width: 1400px) {
+	.icard-container {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2rem;
+		margin-bottom: 2rem;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.icard-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.icard-container {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}

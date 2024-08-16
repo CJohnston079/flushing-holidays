@@ -1,0 +1,21 @@
+.form-section {
+	display: grid;
+	gap: 1rem;
+	border-radius: var(--br-normal);
+	padding: 2rem;
+
+	background-color: var(--cl-background);
+	box-shadow: var(--box-shadow);
+}
+
+.form-section a {
+	margin-top: 1rem;
+}
+
+.form-section > button {
+	margin-bottom: 1rem;
+}
+
+.form-section button {
+	margin-right: auto;
+}

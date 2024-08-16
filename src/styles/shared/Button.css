@@ -1,0 +1,55 @@
+.btn {
+	display: block;
+
+	border: solid 2px transparent;
+	border-radius: var(--br-normal);
+	padding: 0.8rem 1.5rem;
+
+	font-size: 0.8rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+
+	background-color: var(--cl-foreground);
+
+	transition: 400ms;
+	cursor: pointer;
+}
+
+.btn-normal {
+	color: var(--cl-foreground-shade-2);
+	background-color: var(--cl-background-shade);
+}
+
+.btn-normal:hover {
+	color: var(--cl-foreground);
+	background-color: var(--cl-background-shade-2);
+}
+
+.btn-emphasis {
+	border-color: transparent;
+	color: var(--cl-background);
+	background-color: var(--cl-emphasis);
+}
+
+.btn-emphasis:hover {
+	border-color: var(--cl-emphasis);
+	color: var(--cl-emphasis);
+	background-color: var(--cl-emphasis-shade);
+}
+
+.btn-hero {
+	padding: 1rem 1.5rem;
+
+	font-size: 1rem;
+	color: black;
+	background-color: white;
+	mix-blend-mode: screen;
+}
+
+.btn-hero:hover {
+	border: solid 2px white;
+	background-color: black;
+	color: white;
+	backdrop-filter: blur(4px);
+}

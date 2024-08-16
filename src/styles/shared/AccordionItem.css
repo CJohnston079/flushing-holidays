@@ -1,0 +1,54 @@
+h4 {
+	font-size: 1.1rem;
+	font-weight: 600;
+	color: var(--cl-foreground-shade);
+}
+
+.accordion-item {
+	overflow: hidden;
+	border-top: solid 1px var(--cl-midground);
+	padding: 0.5rem 0;
+}
+
+.accordion-item:last-child {
+	border-bottom: solid 1px var(--cl-midground);
+}
+
+.accordion-item.active {
+	max-height: max-content;
+}
+
+.accordion-header {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+
+	font-size: 1.1rem;
+	font-weight: 600;
+
+	user-select: none;
+	cursor: pointer;
+}
+
+.accordion-button {
+	width: 1.3rem;
+	aspect-ratio: 1 / 1;
+	padding: 0.5rem;
+
+	transition: transform 400ms;
+
+	filter: invert(0.5);
+}
+
+.active .accordion-button {
+	transform: rotate(180deg);
+}
+
+.accordion-content {
+	display: none;
+}
+
+.active .accordion-content {
+	display: block;
+	margin-top: 0.5rem;
+}
