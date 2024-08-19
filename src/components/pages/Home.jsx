@@ -4,7 +4,7 @@ import Booking from "../sections/Booking.jsx";
 import Faq from "../sections/Faq.jsx";
 import Hero from "../sections/Hero.jsx";
 import Location from "../sections/Location.jsx";
-import LocalAreaMap from "../sections/LocalAreaMap.jsx";
+// import LocalAreaMap from "../sections/LocalAreaMap.jsx";
 import NavBar from "../nav/NavBar.jsx";
 import Testimonials from "../sections/Testimonials.jsx";
 import Footer from "../sections/Footer.jsx";
@@ -19,7 +19,6 @@ function Home() {
 			<About />
 			<DogFriendly />
 			<Location />
-			<LocalAreaMap />
 			<Testimonials />
 			<Faq />
 			<Booking />
