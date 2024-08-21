@@ -1,6 +1,6 @@
 #booking {
 	background: var(--cl-contrast-shade);
-	background: url(../../assets/images/urquhart-castle.jpg);
+	background: url(../../assets/images/booking-background.jpg);
 	background-position: bottom left;
 	background-size: cover;
 	background-repeat: no-repeat;

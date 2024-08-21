@@ -5,9 +5,9 @@
 	color: white;
 
 	background-color: #565e38;
-	background: url(../../assets/images/owl-cottage-panorama-3.jpeg),
-		linear-gradient(90deg, hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.1) 60%);
-	background-position: top left;
+	background: url(../../assets/images/hero-background.jpg),
+		linear-gradient(90deg, hsla(0, 0%, 0%, 0.4), hsla(0, 0%, 0%, 0.1) 60%);
+	background-position: bottom left;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-blend-mode: overlay;
@@ -60,4 +60,10 @@
 .hero-action:hover {
 	border: solid 2px black;
 	filter: invert(1);
+}
+
+@media only screen and (max-width: 800px) {
+	.hero {
+		background-position: bottom center;
+	}
 }
