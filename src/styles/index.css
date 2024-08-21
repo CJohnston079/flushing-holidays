@@ -1,10 +1,10 @@
 :root {
-	--emphasis-hue: 160;
+	--emphasis-hue: 210;
 	--contrast-hue: 32;
 
-	--cl-emphasis-vivid: hsl(var(--emphasis-hue), 32%, 40%);
-	--cl-emphasis-light: hsl(var(--emphasis-hue), 32%, 80%);
-	--cl-emphasis-dark: hsl(var(--emphasis-hue), 32%, 20%);
+	--cl-emphasis-vivid: hsl(var(--emphasis-hue), 52%, 40%);
+	--cl-emphasis-light: hsl(var(--emphasis-hue), 52%, 80%);
+	--cl-emphasis-dark: hsl(var(--emphasis-hue), 52%, 20%);
 	--cl-contrast-vivid: hsl(var(--contrast-hue), 16%, 50%);
 	--cl-contrast-light: hsl(var(--contrast-hue), 42%, 90%);
 	--cl-contrast-dark: hsl(var(--contrast-hue), 16%, 30%);
