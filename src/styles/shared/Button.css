@@ -28,7 +28,7 @@
 
 .btn-emphasis {
 	border-color: transparent;
-	color: var(--cl-background);
+	color: white;
 	background-color: var(--cl-emphasis);
 }
 
