@@ -2,21 +2,21 @@ import CopyWithBento from "../shared/CopyWithBento";
 import Section from "../shared/Section";
 import "../../styles/sections/Location.css";
 
-import highlandCow from "../../assets/images/kitchen-1.jpg";
-import highlandWinter from "../../assets/images/kitchen-1.jpg";
-import benNevis from "../../assets/images/kitchen-1.jpg";
-import lochNess from "../../assets/images/kitchen-1.jpg";
-import lochTarff from "../../assets/images/kitchen-1.jpg";
-import UrquhartCastle from "../../assets/images/kitchen-1.jpg";
+import bentoImgA1 from "../../assets/images/location-kiln-quay.jpg";
+import bentoImgA2 from "../../assets/images/location-mylor-church.jpg";
+import bentoImgB1 from "../../assets/images/location-mylor-harbour.jpg";
+import bentoImgB2 from "../../assets/images/location-st-anthonys-lighthouse.jpg";
+import bentoImgC1 from "../../assets/images/location-truro.jpg";
+import bentoImgC2 from "../../assets/images/location-st-mawes-castle.jpg";
 
 export default function Location() {
 	const images = [
-		{ src: highlandCow, alt: "Highland Cow" },
-		{ src: UrquhartCastle, alt: "Urquhart Castle" },
-		{ src: highlandWinter, alt: "Highland winter" },
-		{ src: benNevis, alt: "Ben Nevis" },
-		{ src: lochTarff, alt: "Loch Tarff" },
-		{ src: lochNess, alt: "Loch Ness" },
+		{ src: bentoImgA1, alt: "Kiln Quay" },
+		{ src: bentoImgA2, alt: "Mylor Church" },
+		{ src: bentoImgB1, alt: "Mylor Harbour" },
+		{ src: bentoImgB2, alt: "St Anothony's Lighthouse" },
+		{ src: bentoImgC1, alt: "Truro Cathedral" },
+		{ src: bentoImgC2, alt: "St Mawes Castle" },
 	];
 
 	return (
