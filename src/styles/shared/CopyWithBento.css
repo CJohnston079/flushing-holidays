@@ -39,8 +39,13 @@
 }
 
 @media screen and (max-width: 1000px) {
-	.col-content-container {
-		grid-template-columns: auto;
-		gap: 2rem;
+	.col-content-container,
+	.col-content-container.reverse {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.col-content-container.reverse {
+		flex-direction: column-reverse;
 	}
 }
