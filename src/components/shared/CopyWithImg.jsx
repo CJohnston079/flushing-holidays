@@ -1,11 +1,23 @@
 import PropTypes from "prop-types";
 import "../../styles/shared/CopyWithBento.css";
 
-export default function CopyWithBento({ children, imgSrc, imgAltText }) {
+export default function CopyWithBento({ children, imgSrc, imgAltText, reverse = false }) {
+	const copy = <div className="copy">{children}</div>;
+	const img = <img src={imgSrc} alt={imgAltText} />;
+
 	return (
-		<div className="col-bento-container">
-			<div className="copy">{children}</div>
-			<img src={imgSrc} alt={imgAltText} />
+		<div className={`col-content-container ${reverse ? "reverse" : ""}`}>
+			{reverse ? (
+				<>
+					{img}
+					{copy}
+				</>
+			) : (
+				<>
+					{copy}
+					{img}
+				</>
+			)}
 		</div>
 	);
 }
@@ -14,4 +26,5 @@ CopyWithBento.propTypes = {
 	children: PropTypes.node,
 	imgSrc: PropTypes.string.isRequired,
 	imgAltText: PropTypes.string,
+	reverse: PropTypes.bool,
 };

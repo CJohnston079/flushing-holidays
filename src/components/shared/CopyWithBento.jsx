@@ -4,7 +4,7 @@ import "../../styles/shared/CopyWithBento.css";
 
 export default function CopyWithBento({ children, bentoImages }) {
 	return (
-		<div className="col-bento-container">
+		<div className="col-content-container">
 			<div className="copy">{children}</div>
 			<Bento images={bentoImages} />
 		</div>
