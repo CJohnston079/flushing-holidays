@@ -90,7 +90,7 @@ export default function About() {
 					around the house with your own little reading nook on the first floor landing.
 				</p>
 			</CopyWithImg>
-			<CopyWithImg imgSrc={diningImg} emphasis={true}>
+			<CopyWithImg imgSrc={diningImg} emphasis={true} reverse={true}>
 				<h3>Eat & Drink</h3>
 				<p>
 					Craving a delicious meal or a local brew? Look no further than Harbour House, The Royal
@@ -103,39 +103,52 @@ export default function About() {
 					would like any recommendations for on the doorstep or a little further afield.
 				</p>
 			</CopyWithImg>
-			<div>
-				<h3>Other information</h3>
-				<p>
-					We have your family&apos;s needs covered with readily available amenities including a
-					travel cot, baby bath, changing mat and highchair. We also provide both indoor and outdoor
-					clothes drying racks, along with an iron and ironing board for any last-minute touch-ups.
-				</p>
-				<p>
-					Parking – Convenient on-street parking is available directly across from the house on the
-					road leading down to the property, but feel free to park up outside the house to offload
-					your luggage.
-				</p>
-				<p>
-					Getting around – Situated in the heart of the village, the bus stop is conveniently
-					located right outside. And hey, if you spot some fellow holidaymakers or locals huddled
-					under the front porch, don&apos;t worry, they&apos;re not lost - they&apos;re just taking
-					shelter from the sun/rain while waiting for the bus. It&apos;s like our own little holiday
-					hideout!
-				</p>
-				<p>
-					The buses operate hourly, offering a practically private shuttle service to Falmouth.
-					Alternatively, ferries depart from Flushing Quay to Falmouth and run every 30 minutes
-					(every hour off season), all year-round. For a unique travel experience, consider the
-					Falmouth Water Taxi, providing a delightful journey from Flushing Quay directly to
-					Falmouth - a perfect way to explore the area.
-				</p>
-				<p>
-					Guests will have exclusive access to the entire property and private courtyard. We leave
-					one key in the lockbox and a useful second in the long basket on the shelf by the kitchen.
-					Kindly note that a fee of £100 will be applied for any lost keys. We kindly ask that you
-					handle them with care. For added security and convenience, we recommend leaving the keys
-					in the lockbox whenever you depart the house.
-				</p>
+			<h3>Other information</h3>
+			<div className="other-info-container">
+				<div className="other-info">
+					<h4>Family essentials</h4>
+					<p>
+						We have your family&apos;s needs covered with readily available amenities including a
+						travel cot, baby bath, changing mat and highchair. We also provide both indoor and
+						outdoor clothes drying racks, along with an iron and ironing board for any last-minute
+						touch-ups.
+					</p>
+				</div>
+				<div className="other-info">
+					<h4>Parking</h4>
+					<p>
+						Convenient on-street parking is available directly across from the house on the road
+						leading down to the property, but feel free to park up outside the house to offload your
+						luggage.
+					</p>
+				</div>
+				<div className="other-info">
+					<h4>Getting around</h4>
+					<p>
+						Situated in the heart of the village, the bus stop is conveniently located right
+						outside. And hey, if you spot some fellow holidaymakers or locals huddled under the
+						front porch, don&apos;t worry, they&apos;re not lost - they&apos;re just taking shelter
+						from the sun/rain while waiting for the bus. It&apos;s like our own little holiday
+						hideout!
+					</p>
+					<p>
+						The buses operate hourly, offering a practically private shuttle service to Falmouth.
+						Alternatively, ferries depart from Flushing Quay to Falmouth and run every 30 minutes
+						(every hour off season), all year-round. For a unique travel experience, consider the
+						Falmouth Water Taxi, providing a delightful journey from Flushing Quay directly to
+						Falmouth - a perfect way to explore the area.
+					</p>
+				</div>
+				<div className="other-info">
+					<h4>Property access</h4>
+					<p>
+						Guests will have exclusive access to the entire property and private courtyard. We leave
+						one key in the lockbox and a useful second in the long basket on the shelf by the
+						kitchen. Kindly note that a fee of £100 will be applied for any lost keys. We kindly ask
+						that you handle them with care. For added security and convenience, we recommend leaving
+						the keys in the lockbox whenever you depart the house.
+					</p>
+				</div>
 			</div>
 		</Section>
 	);
