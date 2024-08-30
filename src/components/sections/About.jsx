@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-import Button from "../shared/Button";
 import AmenitiesList from "./amenities/AmenitiesList";
 import Modal from "../shared/Modal";
 import ContentWithBento from "../shared/ContentWithBento";
@@ -7,21 +5,21 @@ import Section from "../shared/Section";
 import "../../styles/sections/About.css";
 import "../../styles/sections/Amenities.css";
 
-import owlKitchen from "../../assets/images/kitchen-1.jpg";
-import owlBedroom from "../../assets/images/kitchen-1.jpg";
-import owlSignpost from "../../assets/images/kitchen-1.jpg";
-import owlFurniture from "../../assets/images/kitchen-1.jpg";
-import owlGarden from "../../assets/images/kitchen-1.jpg";
-import owlCoffee from "../../assets/images/kitchen-1.jpg";
+import bentoImgA1 from "../../assets/images/bedroom-one-1.jpg";
+import bentoImgA2 from "../../assets/images/bedroom-one-en-suite-3.jpg";
+import bentoImgB1 from "../../assets/images/kitchen-coffee-machine-1.jpg";
+import bentoImgB2 from "../../assets/images/kitchen-2.jpg";
+import bentoImgC1 from "../../assets/images/living-room-1.jpg";
+import bentoImgC2 from "../../assets/images/living-room-fireplace-1.jpg";
 
 export default function About() {
 	const images = [
-		{ src: owlKitchen, alt: "Kitchen" },
-		{ src: owlBedroom, alt: "Bedroom" },
-		{ src: owlSignpost, alt: "Signpost" },
-		{ src: owlFurniture, alt: "Furniture" },
-		{ src: owlGarden, alt: "Garden" },
-		{ src: owlCoffee, alt: "Coffee" },
+		{ src: bentoImgA1, alt: "Kitchen" },
+		{ src: bentoImgA2, alt: "Bedroom" },
+		{ src: bentoImgB1, alt: "Signpost" },
+		{ src: bentoImgB2, alt: "Furniture" },
+		{ src: bentoImgC1, alt: "Garden" },
+		{ src: bentoImgC2, alt: "Coffee" },
 	];
 
 	return (
@@ -31,35 +29,37 @@ export default function About() {
 				<p className="intro-text">
 					Unwind and relax in this calm, stylish space set just 6 metres from the water&apos;s edge.
 					Whether you&apos;re a beach-goer or a thrill-seeker, you will love coming home to this
-					polished, comfortable place. Our 3-storey Edwardian home, complete with 3 bedrooms and 2.5
-					bathrooms, comes with a 180-degree view over the rooftops to Falmouth and the water from
-					the top floor. Perfect for families, board games, playing cards & puzzles are in the
-					living room, just what&apos;s needed for a night in with a glass of wine.
-				</p>
-				<h3>The Space</h3>
-				<p>
-					Providing plenty of space for guests throughout their stay, the property is arranged over
-					three floors. On the ground floor you will find the airy open plan living/dining room,
-					well-stocked kitchen, utility and a convenient downstairs toilet. The first floor features
-					a spacious master bedroom with king size bed, a twin bedroom and a family bathroom with
-					shower. On the second floor, there is a double bedroom with king size bed, plus an
-					en-suite bathroom with shower and a fabulous view. Please be advised that the second
-					flight of stairs leading up to the top floor is very steep and may be unsuitable for some.
+					polished, comfortable place.
 				</p>
 				<p>
-					Outside, the private courtyard to the rear is decked, complete with an outdoor dining
-					table large enough to accommodate everyone comfortably. Access to the courtyard is
-					available from the kitchen or through a gate to the rear.
+					Our 3-storey Edwardian home, complete with 3 bedrooms and 2.5 bathrooms, comes with a
+					180-degree view over the rooftops to Falmouth and the water from the top floor.
+				</p>
+				<p>
+					Perfect for families, board games, playing cards & puzzles are in the living room, just
+					what&apos;s needed for a night in with a glass of wine.
 				</p>
 				<p></p>
-				<Link to="/tour">
-					<Button style="normal">Take a tour of Owl ➞</Button>
-				</Link>
 				<Modal buttonText="Full list of amenities ➞" heading="Amenities" showCloseButton={true}>
 					{() => <AmenitiesList />}
 				</Modal>
 			</ContentWithBento>
 			<h1></h1>
+			<h3>The Space</h3>
+			<p>
+				Providing plenty of space for guests throughout their stay, the property is arranged over
+				three floors. On the ground floor you will find the airy open plan living/dining room,
+				well-stocked kitchen, utility and a convenient downstairs toilet. The first floor features a
+				spacious master bedroom with king size bed, a twin bedroom and a family bathroom with
+				shower. On the second floor, there is a double bedroom with king size bed, plus an en-suite
+				bathroom with shower and a fabulous view. Please be advised that the second flight of stairs
+				leading up to the top floor is very steep and may be unsuitable for some.
+			</p>
+			<p>
+				Outside, the private courtyard to the rear is decked, complete with an outdoor dining table
+				large enough to accommodate everyone comfortably. Access to the courtyard is available from
+				the kitchen or through a gate to the rear.
+			</p>
 			<h3>Facilities</h3>
 			<p>
 				The property offers central heating with instant hot water on demand, along with a cosy log
