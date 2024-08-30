@@ -19,12 +19,12 @@ import diningImg from "../../assets/images/local-harbour-house-pub-2.jpg";
 
 export default function About() {
 	const images = [
-		{ src: bentoImgA1, alt: "Kitchen" },
-		{ src: bentoImgA2, alt: "Bedroom" },
-		{ src: bentoImgB1, alt: "Signpost" },
-		{ src: bentoImgB2, alt: "Furniture" },
-		{ src: bentoImgC1, alt: "Garden" },
-		{ src: bentoImgC2, alt: "Coffee" },
+		{ src: bentoImgA1, alt: "Bedroom 1" },
+		{ src: bentoImgA2, alt: "Bedroom 1 en suite" },
+		{ src: bentoImgB1, alt: "Coffee machine" },
+		{ src: bentoImgB2, alt: "Kitchen" },
+		{ src: bentoImgC1, alt: "Living room" },
+		{ src: bentoImgC2, alt: "View of fireplace from a table with a vase on" },
 	];
 
 	return (
@@ -49,7 +49,7 @@ export default function About() {
 					{() => <AmenitiesList />}
 				</Modal>
 			</CopyWithBento>
-			<CopyWithImg imgSrc={spaceImg} reverse={true} emphasis={true}>
+			<CopyWithImg imgSrc={spaceImg} alt="View of living area" reverse={true} emphasis={true}>
 				<h3>The Space</h3>
 				<p>
 					Providing plenty of space for guests throughout their stay, the property is arranged over
@@ -69,7 +69,11 @@ export default function About() {
 					available from the kitchen or through a gate to the rear.
 				</p>
 			</CopyWithImg>
-			<CopyWithImg imgSrc={facilitiesImg} emphasis={true}>
+			<CopyWithImg
+				imgSrc={facilitiesImg}
+				alt="Looking through the kitchen to the back door"
+				emphasis={true}
+			>
 				<h3>Facilities</h3>
 				<p>
 					The property offers central heating with instant hot water on demand, along with a cosy
@@ -90,7 +94,7 @@ export default function About() {
 					around the house with your own little reading nook on the first floor landing.
 				</p>
 			</CopyWithImg>
-			<CopyWithImg imgSrc={diningImg} emphasis={true} reverse={true}>
+			<CopyWithImg imgSrc={diningImg} alt="Harbour House pub" emphasis={true} reverse={true}>
 				<h3>Eat & Drink</h3>
 				<p>
 					Craving a delicious meal or a local brew? Look no further than Harbour House, The Royal
