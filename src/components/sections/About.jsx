@@ -7,12 +7,12 @@ import Section from "../shared/Section";
 import "../../styles/sections/About.css";
 import "../../styles/sections/Amenities.css";
 
-import owlKitchen from "../../assets/images/cottage/owl-kitchen.webp";
-import owlBedroom from "../../assets/images/cottage/owl-bedroom.webp";
-import owlSignpost from "../../assets/images/cottage/owl-signpost.webp";
-import owlFurniture from "../../assets/images/cottage/owl-furniture.webp";
-import owlGarden from "../../assets/images/cottage/owl-garden.webp";
-import owlCoffee from "../../assets/images/cottage/owl-coffee.webp";
+import owlKitchen from "../../assets/images/kitchen-1.jpg";
+import owlBedroom from "../../assets/images/kitchen-1.jpg";
+import owlSignpost from "../../assets/images/kitchen-1.jpg";
+import owlFurniture from "../../assets/images/kitchen-1.jpg";
+import owlGarden from "../../assets/images/kitchen-1.jpg";
+import owlCoffee from "../../assets/images/kitchen-1.jpg";
 
 export default function About() {
 	const images = [

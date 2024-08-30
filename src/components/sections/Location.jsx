@@ -2,12 +2,12 @@ import ContentWithBento from "../shared/ContentWithBento";
 import Section from "../shared/Section";
 import "../../styles/sections/Location.css";
 
-import highlandCow from "../../assets/images/locations/highland-cow.jpg";
-import highlandWinter from "../../assets/images/locations/highland-winter.jpg";
-import benNevis from "../../assets/images/locations/ben-nevis.jpg";
-import lochNess from "../../assets/images/locations/loch-ness.jpg";
-import lochTarff from "../../assets/images/locations/loch-tarff.jpg";
-import UrquhartCastle from "../../assets/images/locations/urquhart-castle.jpg";
+import highlandCow from "../../assets/images/kitchen-1.jpg";
+import highlandWinter from "../../assets/images/kitchen-1.jpg";
+import benNevis from "../../assets/images/kitchen-1.jpg";
+import lochNess from "../../assets/images/kitchen-1.jpg";
+import lochTarff from "../../assets/images/kitchen-1.jpg";
+import UrquhartCastle from "../../assets/images/kitchen-1.jpg";
 
 export default function Location() {
 	const images = [

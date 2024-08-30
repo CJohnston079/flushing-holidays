@@ -3,19 +3,19 @@ import IconCard from "./amenities/IconCard";
 import Section from "../shared/Section";
 import "../../styles/sections/Amenities.css";
 
-import dogIcon from "../../assets/icons/dog.png";
-import bowlIcon from "../../assets/icons/bowl.png";
-import petBedIcon from "../../assets/icons/pet-bed.png";
-import blanketIcon from "../../assets/icons/blanket.png";
-import fenceIcon from "../../assets/icons/fence.png";
-import floorIcon from "../../assets/icons/floor.png";
+import dogIcon from "../../assets/images/kitchen-1.jpg";
+import bowlIcon from "../../assets/images/kitchen-1.jpg";
+import petBedIcon from "../../assets/images/kitchen-1.jpg";
+import blanketIcon from "../../assets/images/kitchen-1.jpg";
+import fenceIcon from "../../assets/images/kitchen-1.jpg";
+import floorIcon from "../../assets/images/kitchen-1.jpg";
 
-import bella from "../../assets/images/dogs/bella.jpg";
-import tilly from "../../assets/images/dogs/tilly.jpg";
-import finn from "../../assets/images/dogs/finn.jpg";
-import dogsInHallway from "../../assets/images/dogs/dogs-in-hallway.jpg";
-import dogsOnBed from "../../assets/images/dogs/dogs-on-bed.jpg";
-import dogsOnSofa from "../../assets/images/dogs/dogs-on-sofa.jpg";
+import bella from "../../assets/images/kitchen-1.jpg";
+import tilly from "../../assets/images/kitchen-1.jpg";
+import finn from "../../assets/images/kitchen-1.jpg";
+import dogsInHallway from "../../assets/images/kitchen-1.jpg";
+import dogsOnBed from "../../assets/images/kitchen-1.jpg";
+import dogsOnSofa from "../../assets/images/kitchen-1.jpg";
 
 export default function DogFriendly() {
 	const images = [
