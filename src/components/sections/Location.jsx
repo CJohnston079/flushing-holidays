@@ -1,4 +1,4 @@
-import ContentWithBento from "../shared/ContentWithBento";
+import CopyWithBento from "../shared/CopyWithBento";
 import Section from "../shared/Section";
 import "../../styles/sections/Location.css";
 
@@ -21,7 +21,7 @@ export default function Location() {
 
 	return (
 		<Section sectionId="location">
-			<ContentWithBento bentoImages={images}>
+			<CopyWithBento bentoImages={images}>
 				<h3>Location</h3>
 				<p>
 					Flushing is a beautiful fishing village, steeped in history and just across the water from
@@ -47,7 +47,7 @@ export default function Location() {
 					county town of Truro is 10 miles to the north with St. Ives, Penznace and Padstow all
 					around a 45-minute drive.
 				</p>
-			</ContentWithBento>
+			</CopyWithBento>
 		</Section>
 	);
 }

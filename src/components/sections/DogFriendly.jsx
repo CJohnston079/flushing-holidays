@@ -1,4 +1,4 @@
-import ContentWithBento from "../shared/ContentWithBento";
+import CopyWithBento from "../shared/CopyWithBento";
 import IconCard from "./amenities/IconCard";
 import Section from "../shared/Section";
 import "../../styles/sections/Amenities.css";
@@ -42,7 +42,7 @@ export default function DogFriendly() {
 
 	return (
 		<Section sectionId="dogs-welcome" heading="History">
-			<ContentWithBento bentoImages={images}>
+			<CopyWithBento bentoImages={images}>
 				<p>
 					Henry VIII intended to build a castle on Trefusis Point, to accompany those built at
 					Pendennis and St. Mawes, but due to the expensive wars of the time was unable to finance
@@ -84,7 +84,7 @@ export default function DogFriendly() {
 					Our house was built by the Trefusis family in 1909 on what was then the High Street and
 					was leased out until the freehold was sold in the 1950&apos;s.
 				</p>
-			</ContentWithBento>
+			</CopyWithBento>
 			<div className="icard-container">{cardComponents}</div>
 		</Section>
 	);

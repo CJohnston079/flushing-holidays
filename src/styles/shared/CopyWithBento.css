@@ -4,15 +4,15 @@
 	gap: 4rem;
 }
 
-.content > *:not(:first-child) {
+.copy > *:not(:first-child) {
 	margin-top: 1rem;
 }
 
-.content button {
+.copy button {
 	display: inline;
 }
 
-.content * > button {
+.copy * > button {
 	margin-right: 1rem;
 }
 

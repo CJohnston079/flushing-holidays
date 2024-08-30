@@ -1,6 +1,6 @@
 import AmenitiesList from "./amenities/AmenitiesList";
 import Modal from "../shared/Modal";
-import ContentWithBento from "../shared/ContentWithBento";
+import CopyWithBento from "../shared/CopyWithBento";
 import Section from "../shared/Section";
 import "../../styles/sections/About.css";
 import "../../styles/sections/Amenities.css";
@@ -24,7 +24,7 @@ export default function About() {
 
 	return (
 		<Section sectionId="about">
-			<ContentWithBento bentoImages={images}>
+			<CopyWithBento bentoImages={images}>
 				<h3>The House</h3>
 				<p className="intro-text">
 					Unwind and relax in this calm, stylish space set just 6 metres from the water&apos;s edge.
@@ -43,7 +43,7 @@ export default function About() {
 				<Modal buttonText="Full list of amenities ➞" heading="Amenities" showCloseButton={true}>
 					{() => <AmenitiesList />}
 				</Modal>
-			</ContentWithBento>
+			</CopyWithBento>
 			<h1></h1>
 			<h3>The Space</h3>
 			<p>
