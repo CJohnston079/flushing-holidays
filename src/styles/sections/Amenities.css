@@ -1,7 +1,3 @@
-#dogs-welcome {
-	background-color: var(--cl-background-shade);
-}
-
 .icard-container {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);

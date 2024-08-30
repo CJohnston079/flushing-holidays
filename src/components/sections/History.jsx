@@ -1,6 +1,6 @@
 import CopyWithImg from "../shared/CopyWithImg";
 import Section from "../shared/Section";
-import "../../styles/sections/Amenities.css";
+import "../../styles/sections/History.css";
 
 import cen17 from "../../assets/images/history-pendennis-castle.jpg";
 import cen18 from "../../assets/images/history-packet-ship.jpg";
@@ -8,7 +8,7 @@ import cen19 from "../../assets/images/history-trefusis-point.jpg";
 
 export default function History() {
 	return (
-		<Section sectionId="dogs-welcome" heading="History">
+		<Section sectionId="history" heading="History">
 			<CopyWithImg imgSrc={cen17} imgAltText="Pendennis Castle">
 				<h3>17th Century</h3>
 				<p>
