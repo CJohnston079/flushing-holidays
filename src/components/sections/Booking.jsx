@@ -1,5 +1,7 @@
 import { useState } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 import Button from "../shared/Button";
 import Fields from "../shared/Fields";
@@ -10,6 +12,17 @@ import formFields from "../../data/formFields.json";
 import "../../styles/sections/Booking.css";
 
 export default function Booking() {
+	const { hash } = useLocation();
+
+	useEffect(() => {
+		if (hash === "#booking") {
+			const bookingElement = document.getElementById("booking");
+			if (bookingElement) {
+				bookingElement.scrollIntoView({ behavior: "instant" });
+			}
+		}
+	}, [hash]);
+
 	const fields = formFields.booking;
 
 	const [formData, setFormData] = useState(() =>

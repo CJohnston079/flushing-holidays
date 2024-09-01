@@ -10,7 +10,7 @@ export default function Terms() {
 	return (
 		<>
 			<NavBar links={[]}>
-				<Link to="/">
+				<Link to="/#booking">
 					<Button style="emphasis">
 						<span style={{ display: "inline-block", rotate: "180deg" }}>➞</span> Back
 					</Button>
