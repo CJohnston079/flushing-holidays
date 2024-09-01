@@ -16,6 +16,16 @@
 	margin-bottom: 1rem;
 }
 
+.button-list {
+	display: grid;
+	gap: 1rem;
+}
+
+.button-list .btn {
+	width: 100%;
+	text-align: left;
+}
+
 @media screen and (max-width: 800px) {
 	.other-info-container {
 		grid-template-columns: auto;

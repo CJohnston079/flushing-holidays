@@ -1,4 +1,5 @@
 import AmenitiesList from "./amenities/AmenitiesList";
+import Button from "../shared/Button";
 import Modal from "../shared/Modal";
 import CopyWithBento from "../shared/CopyWithBento";
 import CopyWithImg from "../shared/CopyWithImg";
@@ -106,6 +107,23 @@ export default function About() {
 					Falmouth is packed with great eateries to suit every taste and pocket, but ask if you
 					would like any recommendations for on the doorstep or a little further afield.
 				</p>
+				<ul className="button-list">
+					<li>
+						<a target="_blank" href="https://harbourhouseflushing.co.uk/">
+							<Button style="emphasis">Harbour House Pub ➞</Button>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="https://royalstandardflushing.co.uk/">
+							<Button style="emphasis">The Royal Standard Pub ➞</Button>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="https://thewatersideflushing.com/">
+							<Button style="emphasis">The Waterside Restaurant ➞</Button>
+						</a>
+					</li>
+				</ul>
 			</CopyWithImg>
 			<h3>Other information</h3>
 			<div className="other-info-container">
