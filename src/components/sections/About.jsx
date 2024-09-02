@@ -7,11 +7,11 @@ import Section from "../shared/Section";
 import "../../styles/sections/About.css";
 import "../../styles/sections/Amenities.css";
 
-import bentoImgA1 from "../../assets/images/bedroom-one-1.jpg";
+import bentoImgA1 from "../../assets/images/living-room-1.jpg";
 import bentoImgA2 from "../../assets/images/bedroom-one-en-suite-3.jpg";
 import bentoImgB1 from "../../assets/images/kitchen-coffee-machine-1.jpg";
 import bentoImgB2 from "../../assets/images/kitchen-2.jpg";
-import bentoImgC1 from "../../assets/images/living-room-1.jpg";
+import bentoImgC1 from "../../assets/images/bedroom-one-1.jpg";
 import bentoImgC2 from "../../assets/images/living-room-fireplace-1.jpg";
 
 import spaceImg from "../../assets/images/living-room-3.jpg";

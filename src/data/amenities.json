@@ -2,7 +2,7 @@
 	{
 		"heading": "Kitchen and dining",
 		"content": [
-			{ "icon": "coffee-machine", "description": "Grind coffee machine (Nespresso compatible" },
+			{ "icon": "coffee-machine", "description": "Grind coffee machine (Nespresso compatible)" },
 			{ "icon": "toaster", "description": "Toaster" },
 			{ "icon": "kettle", "description": "Kettle" },
 			{ "icon": "blender", "description": "Nutribullet blender" },
@@ -10,13 +10,14 @@
 			{ "icon": "hob", "description": "Four burner induction hobs" },
 			{ "icon": "fridge", "description": "Large fridge" },
 			{ "icon": "tongs", "description": "BBQ equipment" },
-			{ "icon": "dog", "description": "Dog treats" }
+			{ "icon": "dog", "description": "Dog treats" },
+			{ "icon": "coffee-beans", "description": "Kitchen basics (tea, coffee, sugar, etc.)" }
 		]
 	},
 	{
 		"heading": "Utility",
 		"content": [
-			{ "icon": "washing-machine", "description": "Washing machine with tumble dryer" },
+			{ "icon": "washing-machine", "description": "Washing machine" },
 			{ "icon": "microwave", "description": "Microwave" },
 			{ "icon": "fridge", "description": "Freezer" },
 			{ "icon": "blender", "description": "Food processor" },
@@ -25,14 +26,13 @@
 			{ "icon": "hanger", "description": "Clothes airer" },
 			{ "icon": "hoover", "description": "Henry Hoover and cleaning equipment" },
 			{ "icon": "printer", "description": "Bluetooth enalbed HP printer and paper" },
-			{ "icon": "dog-eating", "description": "Dog bowls" },
-			{ "icon": "coffee-beans", "description": "Kitchen basics (tea, coffe, sugar, etc." }
+			{ "icon": "dog-eating", "description": "Dog bowls" }
 		]
 	},
 	{
 		"heading": "Sitting/dining room",
 		"content": [
-			{ "icon": "table", "description": "Dining for up to 8x" },
+			{ "icon": "table", "description": "Dining for up to x8" },
 			{ "icon": "burner", "description": "Wood burner" },
 			{ "icon": "bluetooth", "description": "BOSE Bluetooth Sound System" },
 			{ "icon": "tv", "description": "Smart TV with Amazon Firestick" },
@@ -62,7 +62,7 @@
 	{
 		"heading": "Safety",
 		"content": [
-			{ "icon": "fire-hazard", "description": "Heat sensor (linked) - kitchen" },
+			{ "icon": "fire-hazard", "description": "Heat sensor (linked) - kitchen)" },
 			{ "icon": "smoke-detector", "description": "Smoke alarms (linked) - all rooms" },
 			{ "icon": "exit", "description": "Emergency exit lights - both staircases" },
 			{
@@ -89,7 +89,7 @@
 		"heading": "Bathroom",
 		"content": [
 			{ "icon": "shampoo", "description": "Land & Water toiletries" },
-			{ "icon": "towel", "description": "Towels (please bring your own beach towels" },
+			{ "icon": "towel", "description": "Towels (please bring your own beach towels)" },
 			{ "icon": "hair-dryer", "description": "Hairdryers x2" },
 			{ "icon": "underwear", "description": "Ladies sanitary products" }
 		]
@@ -99,7 +99,7 @@
 		"content": [
 			{ "icon": "table", "description": "8-seater Fermob table" },
 			{ "icon": "chair", "description": "4x Garden chairs" },
-			{ "icon": "picnic-table", "description": "Bench seating with sead pads and cushions" },
+			{ "icon": "picnic-table", "description": "Bench seating with seat pads and cushions" },
 			{ "icon": "bbq", "description": "Barbecue" },
 			{ "icon": "clothes", "description": "Washing line" },
 			{ "icon": "bucket", "description": "Buckets and spades" }
