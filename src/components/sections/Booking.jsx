@@ -36,7 +36,7 @@ export default function Booking() {
 					color: "#000",
 					insertAt: ".uplisting-widget",
 					guestsMin: 1,
-					guestsMax: 12,
+					guestsMax: 6,
 					textColor: "#fff",
 					backgroundColor: "#000",
 					buttonText: "Confirm your booking ➞",
