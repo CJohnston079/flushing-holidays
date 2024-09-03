@@ -8,6 +8,10 @@
 	background-attachment: fixed;
 }
 
+#booking .btn {
+	width: 100%;
+}
+
 .booking-container {
 	display: flex;
 	flex-direction: column;
@@ -62,9 +66,9 @@
 	padding: 0 !important;
 }
 
-.uplisting-widget .uplisting-search-widget .uf-date-picker-wrapper .uf-date-picker-text input {
+/* .uplisting-widget .uplisting-search-widget .uf-date-picker-wrapper .uf-date-picker-text input {
 	width: 100% !important;
-}
+} */
 
 .datepicker {
 	display: block !important;
@@ -133,5 +137,29 @@
 
 .uplisting-widget .datepicker .datepicker-picker .datepicker-cell:hover {
 	/* color: white !important; */
+	background-color: var(--cl-emphasis-shade) !important;
+}
+
+.uplisting-widget .uplisting-search-widget .uf-search-button {
+	display: block;
+
+	border: solid 2px transparent !important;
+	border-radius: var(--br-normal);
+	padding: 0.8rem 1.5rem !important;
+
+	font-size: 0.8rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+
+	background-color: var(--cl-emphasis) !important;
+
+	transition: 400ms !important;
+	cursor: pointer;
+}
+
+.uplisting-widget .uplisting-search-widget .uf-search-button:hover {
+	border-color: var(--cl-emphasis) !important;
+	color: var(--cl-emphasis) !important;
 	background-color: var(--cl-emphasis-shade) !important;
 }

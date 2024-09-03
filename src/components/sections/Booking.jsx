@@ -39,12 +39,11 @@ export default function Booking() {
 					guestsMax: 12,
 					textColor: "#fff",
 					backgroundColor: "#000",
-					buttonText: "Confirm booking",
+					buttonText: "Confirm your booking ➞",
 				});
 			}
 		};
 
-		// Clean up script when the component unmounts
 		return () => {
 			document.body.removeChild(script);
 		};
