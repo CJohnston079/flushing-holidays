@@ -66,10 +66,6 @@
 	padding: 0 !important;
 }
 
-/* .uplisting-widget .uplisting-search-widget .uf-date-picker-wrapper .uf-date-picker-text input {
-	width: 100% !important;
-} */
-
 .datepicker {
 	display: block !important;
 	top: 2.5rem !important;
@@ -148,7 +144,7 @@
 	border-radius: var(--br-normal);
 	padding: 0.8rem 1.5rem !important;
 
-	font-size: 0.8rem;
+	font-size: 0.8rem !important;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
@@ -201,5 +197,33 @@
 	}
 	.uplisting-widget .uplisting-search-widget .uf-date-picker-text:nth-child(2) .datepicker-main {
 		transform: translateX(16vw);
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.uplisting-widget .uplisting-search-widget .uf-date-picker-wrapper {
+		margin-bottom: 15.3rem !important;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	.datepicker {
+		width: calc(20vw + 2.5rem) !important;
+	}
+
+	.uplisting-widget .uplisting-search-widget .uf-date-picker-wrapper {
+		display: grid !important;
+		grid-template-columns: 1.5rem 1fr;
+		row-gap: 1rem;
+	}
+
+	.uf-date-picker-text:nth-child(2) .datepicker {
+		top: 5rem !important;
+	}
+
+	.uf-date-picker-text:last-child .datepicker {
+		top: 2.5rem !important;
+		right: 0px !important;
+		left: auto !important;
 	}
 }
