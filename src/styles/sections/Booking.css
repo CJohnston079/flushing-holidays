@@ -91,6 +91,7 @@
 .uplisting-widget .datepicker .datepicker-picker {
 	background-color: hsl(0, 0%, 95%) !important;
 	border-color: hsl(0, 0%, 90%) !important;
+	mix-blend-mode: multiply !important;
 	transition: background-color 400ms, border-color 400ms;
 }
 
@@ -162,4 +163,43 @@
 	border-color: var(--cl-emphasis) !important;
 	color: var(--cl-emphasis) !important;
 	background-color: var(--cl-emphasis-shade) !important;
+}
+
+@media screen and (max-width: 700px) {
+	.uplisting-widget .datepicker .datepicker-picker {
+		background-color: initial !important;
+	}
+
+	.uplisting-widget
+		.uplisting-search-widget
+		.uf-date-picker-text:last-child
+		.datepicker-controls
+		button:not(.next-btn) {
+		visibility: hidden;
+	}
+
+	.uplisting-widget .uplisting-search-widget .uf-date-picker-text:last-child .datepicker-main {
+		visibility: hidden;
+	}
+
+	.uplisting-widget
+		.uplisting-search-widget
+		.uf-date-picker-text:nth-child(2)
+		.datepicker-controls
+		.prev-btn:disabled
+		+ .view-switch {
+		transform: translateX(16vw);
+	}
+
+	.uplisting-widget
+		.uplisting-search-widget
+		.uf-date-picker-text:nth-child(2)
+		.datepicker-controls
+		.prev-btn
+		+ .view-switch {
+		transform: translateX(12vw);
+	}
+	.uplisting-widget .uplisting-search-widget .uf-date-picker-text:nth-child(2) .datepicker-main {
+		transform: translateX(16vw);
+	}
 }
