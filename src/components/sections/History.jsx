@@ -4,7 +4,7 @@ import "../../styles/sections/History.css";
 
 import cen17 from "../../assets/images/history-pendennis-castle.jpg";
 import cen18 from "../../assets/images/history-packet-ship.jpg";
-import cen19 from "../../assets/images/history-trefusis-point.jpg";
+import cen19 from "../../assets/images/history-flushing.jpg";
 
 export default function History() {
 	return (
