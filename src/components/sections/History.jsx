@@ -2,7 +2,7 @@ import CopyWithImg from "../shared/CopyWithImg";
 import Section from "../shared/Section";
 import "../../styles/sections/History.css";
 
-import cen17 from "../../assets/images/history-pendennis-castle.jpg";
+import cen17 from "../../assets/images/history-trefusis-house.jpg";
 import cen18 from "../../assets/images/history-packet-ship.jpg";
 import cen19 from "../../assets/images/history-flushing.jpg";
 
