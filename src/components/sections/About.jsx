@@ -49,6 +49,10 @@ export default function About() {
 				<Modal buttonText="Full list of amenities ➞" heading="Amenities" showCloseButton={true}>
 					{() => <AmenitiesList />}
 				</Modal>
+				<p></p>
+				<a target="_blank" href="https://www.guesteduk.com/localguide">
+					<Button style="emphasis">Falmouth local guide ➞</Button>
+				</a>
 			</CopyWithBento>
 			<CopyWithImg imgSrc={spaceImg} alt="View of living area" reverse={true} emphasis={true}>
 				<h3>The Space</h3>
