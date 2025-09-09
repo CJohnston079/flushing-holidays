@@ -3,7 +3,6 @@ import Section from "../shared/Section";
 import "../../styles/sections/History.css";
 
 import cen17 from "../../assets/images/history-trefusis-house.jpg";
-import cen18 from "../../assets/images/history-packet-ship.jpg";
 import cen19 from "../../assets/images/history-flushing.jpg";
 
 export default function History() {
@@ -26,20 +25,6 @@ export default function History() {
 					Vermuyden the elder, who built the two main quays in the village. The grand houses on St
 					Peter&apos;s Hill, the road that leads into the village, were owned by captains of the
 					packet ships (mail-boats) that docked in nearby Falmouth.
-				</p>
-			</CopyWithImg>
-			<CopyWithImg imgSrc={cen18} imgAltText="18th Century packet ship">
-				<h3>18th Century</h3>
-				<p>
-					James Silk Buckingham (1786–1855) spent his childhood here and writes that most of the
-					packet captains and officers, and their families, as well as the crews, lived in the
-					village.
-				</p>
-				<p>
-					Dinners, balls and evening parties were held most evenings at some of the captains&apos;
-					houses and there were dances for the sailors at the humbler places. Much of it paid for by
-					prize money and the profits from the contraband carried by the packet ships (The
-					forerunner of the post office or UPS out to the British Colonies).
 				</p>
 			</CopyWithImg>
 			<CopyWithImg imgSrc={cen19} imgAltText="Trefusis Point">
