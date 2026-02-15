@@ -91,7 +91,8 @@
 			{ "icon": "shampoo", "description": "Land & Water toiletries" },
 			{ "icon": "towel", "description": "Towels (please bring your own beach towels)" },
 			{ "icon": "hair-dryer", "description": "Hairdryers x2" },
-			{ "icon": "underwear", "description": "Ladies sanitary products" }
+			{ "icon": "underwear", "description": "Ladies sanitary products" },
+			{ "icon": "scales", "description": "Set of bathroom scales" }
 		]
 	},
 	{
@@ -102,6 +103,7 @@
 			{ "icon": "picnic-table", "description": "Bench seating with seat pads and cushions" },
 			{ "icon": "bbq", "description": "Barbecue" },
 			{ "icon": "clothes", "description": "Washing line" },
+			{ "icon": "rower", "description": "2x Kayaks with life vests" },
 			{ "icon": "bucket", "description": "Buckets and spades" }
 		]
 	}

@@ -9,6 +9,7 @@
 
 	width: calc(100vw - calc(2 * var(--site-padding-x)));
 	height: 100vh;
+	height: 100dvh;
 
 	padding: 0 var(--site-padding-x);
 	border: none;

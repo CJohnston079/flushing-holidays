@@ -1,6 +1,7 @@
 .hero {
 	padding: 0 var(--site-padding-x);
 	height: 100vh;
+	height: 100dvh;
 
 	color: white;
 

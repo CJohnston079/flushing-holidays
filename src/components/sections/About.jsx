@@ -102,10 +102,9 @@ export default function About() {
 			<CopyWithImg imgSrc={diningImg} alt="Harbour House pub" emphasis={true} reverse={true}>
 				<h3>Eat & Drink</h3>
 				<p>
-					Craving a delicious meal or a local brew? Look no further than Harbour House, The Royal
-					Standard and The Waterside Restaurant, all just a stone&apos;s throw away... plus,
-					there&apos;s a delightful village shop around the corner (Their hot pasties are a must at
-					lunchtime – delicious!).
+					Craving a delicious meal or a local brew? Look no further than Harbour House or The Royal
+					Standard, both just a stone&apos;s throw away... plus, there&apos;s a delightful village
+					shop around the corner (Their hot pasties are a must at lunchtime – delicious!).
 				</p>
 				<p>
 					Falmouth is packed with great eateries to suit every taste and pocket, but ask if you
@@ -120,11 +119,6 @@ export default function About() {
 					<li>
 						<a target="_blank" href="https://royalstandardflushing.co.uk/">
 							<Button style="emphasis">The Royal Standard Pub ➞</Button>
-						</a>
-					</li>
-					<li>
-						<a target="_blank" href="https://thewatersideflushing.com/">
-							<Button style="emphasis">The Waterside Restaurant ➞</Button>
 						</a>
 					</li>
 				</ul>
@@ -173,6 +167,14 @@ export default function About() {
 						kitchen. Kindly note that a fee of £100 will be applied for any lost keys. We kindly ask
 						that you handle them with care. For added security and convenience, we recommend leaving
 						the keys in the lockbox whenever you depart the house.
+					</p>
+				</div>
+				<div className="other-info">
+					<h4>Kayaks</h4>
+					<p>
+						Kayaks - For those looking to get out on the water, we have two kayaks available for
+						guest use. You&apos;ll find them in the back garden through the rear gate along with
+						life jackets and oars.
 					</p>
 				</div>
 			</div>

@@ -1,5 +1,35 @@
 [
 	{
+		"id": "10",
+		"name": "Vanessa",
+		"date": "February 2026",
+		"content": "Family of five and a small dog had a great stay. Beautiful house in picturesque village, would definitely visit again. Thank you"
+	},
+	{
+		"id": "9",
+		"name": "Murray",
+		"date": "January 2026",
+		"content": "We had a fantastic weekend. Beautiful, spotlessly clean property. Everything we needed. Would definitely recommend."
+	},
+	{
+		"id": "8",
+		"name": "Stephen",
+		"date": "September 2025",
+		"content": "Well positioned, well appointed, well equipped, very well presented and a great host.  We really enjoyed our stay; plenty to do in and around Flushing and Falmouth, including bar and beach activities.  Would definitely stay again."
+	},
+	{
+		"id": "7",
+		"name": "Sam",
+		"date": "August 2025",
+		"content": "Great location in a quaint fishing harbour with two amazing pubs and harbour-side restaurant less than a minute away."
+	},
+	{
+		"id": "6",
+		"name": "Twyla",
+		"date": "June 2025",
+		"content": "I am loathed to write how much we enjoyed staying here, in fear we will never be able to book it again because of how popular it’s about to become!! Honestly, it was the best Air BnB we have stayed in. The most well-equipped stay with EVERYTHING you could possibly think of (and more!) and also in the most perfect location for both relaxing and also mini-adventures. We absolutely loved it - please don’t become too popular as we really REALLY want to come back!!"
+	},
+	{
 		"id": "5",
 		"name": "Sam",
 		"date": "September 2024",
